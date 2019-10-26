@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport"
+    content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="9377 H5游戏">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="cache" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <title>9377 H5游戏平台</title>
+    <meta name="frontend" content="Robin">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="top" style="display:none">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="right">
+                <i class="user"></i>
+                <i class="app"></i>
+            </div>
+        </div>
+        <header class="topbar">
+            <a href="#" class="icon" title="icon">
+                <img src="images/icon.png">
+            </a>
+            <div class="game_name">
+                <h2>暴走大侠</h2>
+                <p>单手闯关，用指尖行走江湖</p>
+            </div>
+            <a class="btn_download" target="_blank" href="#" title="下载游戏"></a>
+        </header>
+        <section class="container">
+            <h2>【重要公告】6月10号游戏合服公告</h2>
+            <span>发布日期：2019-1-02 12:26</span>
+            <div class="content">
+                <p>游戏将对部分区</p>
+                <p>游戏将对部分区</p>
+
+
+                <p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p><p>游戏将对部分区</p>
+                <p>您好！游戏将对部分区服进行合服。具体合服维 护时间将视情况提前或延后，合服完成后玩家可以通过原有账</p>
+            </div>
+        </section>
+        <footer class="nav" style="display:none">
+            <ul>
+                <li class="index"><a class="active" href="#">首页</a></li>
+                <li class="game"><a href="#">游戏</a></li>
+                <li class="gift"><a href="#">礼包</a></li>
+                <li class="user"><a href="#">个人</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script>
+    var initScreen = function () {
+  $("html").css("font-size", document.documentElement.clientWidth / 375 * 312.5 + "%");
+}
+$(window).on('onorientationchange' in window ? 'orientationchange' : 'resize', function () {
+  setTimeout(initScreen, 200);
+});
+
+        $('.nav li').on('click',function(){
+            $(this).find('a').addClass('active').end().siblings().find('a').removeClass('active');
+        })
+   
+
+    document.onselectstart = new Function("return false");
+</script>
+
+</html>

@@ -1,0 +1,394 @@
+@media (min-width: 320px){html{font-size: 266.667%;} }
+@media (min-width: 360px){html{font-size: 300%;} }
+@media (min-width: 375px){html{font-size: 312.5%;;} }
+@media (min-width: 384px){html{font-size: 320%;} }
+@media (min-width: 414px){html{font-size: 345%;} }
+@media (min-width: 448px){html{font-size: 373.333%;} }
+@media (min-width: 480px){html{font-size: 400%;} }
+@media (min-width: 512px){html{font-size: 426.667%;} }
+@media (min-width: 544px){html{font-size: 453.333%;} }
+@media (min-width: 576px){html{font-size: 480%;} }
+@media (min-width: 608px){html{font-size: 506.667%;} }
+@media (min-width: 640px){html{font-size: 533.333%;} }
+@media (min-width: 750px){html{font-size: 625%;;} } 
+body{
+  background:#f5f6f8;
+}
+#main {
+  width: 7.5rem;
+  height: auto;
+  position: relative;
+  background-size: 100% auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* .top{
+  height:.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+ width:.95rem;
+ height:.26rem;
+}
+.top i::before{
+  display:inline-block;
+  content:'';
+  width:.2rem;
+  height:.2rem;
+  margin-right:.08rem;
+  background:url(../images/user-icon.png) no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.top i.app::before{
+  background-position:0 -30px
+} */
+.topbar{
+  width: 7.5rem;
+  background: #1c1e35;
+  background-size: 100%;
+  position: relative;
+  z-index: 51;
+  background:#303030;
+  overflow: hidden;
+  
+}
+.topbar .icon{
+    float:left;
+    display:block;
+    width:1.38rem;
+    height:1.38rem;
+    margin:.16rem .16rem;
+    border-radius:.1rem;
+}
+.icon img,.logo img,.slide img{
+  height:100%;
+}
+.topbar .game_name{
+  float:left;
+  margin-top:.18rem;
+  font-size:0;
+}
+.topbar .game_name h2{
+  margin-top:.1rem;
+  font-size:.44rem;
+  color:#f5c539;
+  font-weight: bold;
+
+}
+.topbar .game_name p{
+  line-height:.5rem;
+  color:#fff;
+  font-size: .28rem;
+}
+.topbar .btn_download{
+  position: absolute;
+  top:.34rem;
+  right:.12rem;
+  display: block;
+  width:2.15rem;
+  height:.94rem;
+  background:url(/images/2018/lianyun/bzdx/m_index/down.png) center center no-repeat;
+  background-size:100%;
+}
+
+.slide{
+  width:100%;
+  box-sizing:border-box;
+  overflow: hidden;
+}
+.slide .swiper-container img{
+ width:100%;
+}
+
+.slide .swiper-pagination-bullet{
+  width:.085rem;
+  height:.085rem;
+  background:#f4f6f7;
+  opacity:1;
+}
+.slide .swiper-pagination-bullet-active{
+  background:#f5c539
+}
+
+.tabs-container{
+  position: relative;
+  height:4.55rem;
+  box-sizing:border-box;
+  padding:0 .27rem;
+  overflow: hidden;
+  box-sizing:border-box;
+  background:#fff;
+}
+.tabs{
+  width:6.95rem;
+  font-size:0;
+  border-bottom:1px solid #dcdcdc;
+}
+
+.tabs span {
+  display: inline-block;
+  width:1.6rem;
+  height:.7rem;
+  line-height:.7rem;
+  font-size:.34rem;
+  font-weight: bold;
+  text-align: center;
+}
+.tabs span.active{
+  border-bottom:.09rem solid #f5c539;
+}
+.tabs-container .more{
+  font-size:0;
+  position: absolute;
+  top:0;
+  right:.3rem;
+ 
+}
+.tabs-container .more a{
+  padding:0.1rem;
+  color:#dcdcdc;
+  font-size:.5rem;
+}
+
+
+.tabs-box a{
+  position: relative;
+  display: block;
+  width:100%;
+  line-height:.75rem ;
+  border-bottom:1px dashed #dcdcdc;
+  color:#3c3c3c;
+}
+
+.tabs-box span{
+  position: absolute;
+  top:0;
+  right:0;
+  color:#b5b5b5;
+}
+.tabs-box i{
+  font-style: normal;
+}
+.feature,.about{
+  width:7.5rem;
+  overflow: hidden;
+  margin-top:.24rem;
+  background:#fff;
+  padding-bottom:.6rem;
+}
+ .title{
+  width:6.78rem;
+  height:1.7rem;
+  background:url(/images/2018/lianyun/bzdx/m_index/tit-bg.png) center center no-repeat;
+  background-size:100%;
+  margin:0 auto;
+  line-height:1.7rem;
+  
+}
+.title p{
+  text-align: center;
+  font-size:.4rem;
+  font-weight:bold;
+ color:#f5c539
+}
+.feature-box{
+  padding-bottom: .1rem;
+}
+.feature-box .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 4.34rem;
+  height: 7.72rem;
+
+}
+.about-box {
+  width:7.5rem;
+  margin:0 .26rem;
+}
+ .about-box .left{
+   width:3.8rem;
+  float:left;
+}
+.about-box .right{
+  width:2.5rem;
+  float: right;
+  padding-right:.27rem;
+}
+
+.about-box .left li{
+  line-height: .6rem;
+  font-size:.32rem;
+  color:#303030;
+}
+.about-box .left li a{
+  font-size:.32rem;
+}
+.about-box .left li::before{
+  display:inline-block;
+  content:'';
+  width:.34rem;
+  height:.32rem;
+  margin-right:.1rem;
+  vertical-align: middle;
+  background:red;
+}
+.about-box .left .code::before{
+  background:url(/images/2018/lianyun/bzdx/m_index/about-icons1.png) center center no-repeat;
+  background-size: 100%;
+}
+.about-box .left .account::before{
+  background:url(/images/2018/lianyun/bzdx/m_index/about-icons2.png) center center no-repeat;
+  background-size: 100%;
+}
+.about-box .left .kefu::before{
+  background:url(/images/2018/lianyun/bzdx/m_index/about-icons3.png) center center no-repeat;
+  background-size: 100%;
+}
+
+.about-box .right .code-img{
+  width:1.46rem;
+  height:1.44rem;
+  padding:.1rem;
+  margin:0 auto;
+  background:url(/images/2018/lianyun/bzdx/m_index/code_bg.jpg) center center no-repeat;
+  background-size: 100%;
+}
+.about-box .right img{
+  width:100% !important;
+  height:100% !important;
+}
+.about-box .right p{
+  color:#303030;
+  text-align: center;
+  font-size:.32rem;
+}
+.about-box .right span{
+  font-weight:bold;
+  color:#f5c539;
+}
+ .footer p{
+   text-align: center;
+   color:#7c7c7c;
+}
+.footer .message{
+  margin:.32rem 0;
+}
+.footer .tips{
+  padding:0.26rem 0;
+  background:#303030;
+  font-size:0;
+}
+.footer .tips p:first-child{
+  padding-bottom:.16rem;
+}
+.footer .tips p{
+  /* letter-spacing: -.08rem; */
+} 
+
+
+.container{
+  color:#333333;
+  background:#fff;
+}
+.container{
+  font-size:0;
+  margin:0 .27rem;
+}
+.container h2{
+  line-height:.8rem;
+  font-size:.4rem;
+  text-align: center;
+  font-weight:bold;
+}
+.container span{
+  color:#bebebe;
+  font-size:.26rem;
+}
+.container .content{
+  margin-top:.5rem;
+  font-size:.32rem
+}
+.container .content img{
+  width:100% !important;
+}
+/* 
+.nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:.7rem 0;
+  border-top:1px solid #e5e5e5;
+  background:#fff;
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav a{
+  display: block;
+  color:#929292;
+  font-size:1.3rem;
+  text-align: center;
+}
+.nav li a::before{
+  display:block;
+  content:'';
+  width:2.55rem;
+  height:2.15rem;
+}
+.nav li.index a::before{
+  background:url(../images/nav-icon1.png) no-repeat;
+  background-size:100%;
+}
+.nav li.game a::before{
+  background:url(../images/nav-icon2.png) no-repeat;
+  background-size:100%;
+}
+.nav li.gift a::before{
+  background:url(../images/nav-icon3.png) no-repeat;
+  background-size:100%;
+}
+.nav li.user a::before{
+  background:url(../images/nav-icon4.png) no-repeat;
+  background-size:100%;
+}
+
+.nav li.index a.active::before{
+  background:url(../images/nav-active-icon1.png) no-repeat;
+  background-size:100%;
+}
+.nav li.game a.active::before{
+  background:url(../images/nav-active-icon2.png) no-repeat;
+  background-size:100%;
+}
+.nav li.gift a.active::before{
+  background:url(../images/nav-active-icon3.png) no-repeat;
+  background-size:100%;
+}
+.nav li.user a.active::before{
+  background:url(../images/nav-active-icon4.png) no-repeat;
+  background-size:100%;
+} */
+
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url(../images/prev.png);
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../images/next.png);
+}
+.swiper-button-next, .swiper-button-prev{
+  width: .62rem;
+  height: .62rem;
+  background-size: 100%;
+} 
+.__data__{
+  font-size:14px;
+}
